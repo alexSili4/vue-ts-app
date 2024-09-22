@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import TitleComponent from '@/components/TitleComponent.vue';
+import TitleComponent from '@/components/TitleComponent';
 </script>
 
 <template>
-  <TitleComponent msg="Vue + TS" />
+  <TitleComponent msg="title" />
 </template>

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string;
-}>();
+import type { IProps } from './TitleComponent.types';
+
+defineProps<IProps>();
 </script>
 
 <template>
